@@ -23,12 +23,12 @@
  
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
-# Inherit from corsica device
-$(call inherit-product, device/samsung/corsica/device.mk)
+# Inherit from zanin device
+$(call inherit-product, device/samsung/zanin/device.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := full_corsica
-PRODUCT_DEVICE := corsica
+PRODUCT_NAME := full_zanin
+PRODUCT_DEVICE := zanin
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_MODEL := GT-S5312
+PRODUCT_MODEL := GT-B5330
