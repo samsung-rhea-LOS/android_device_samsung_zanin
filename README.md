@@ -1,8 +1,8 @@
-# CyanogenMod-11.0 Device tree for Samsung GT-S5310x,S5312x (corsica)
+# CyanogenMod-11.0 Device tree for Samsung GT-S5310x,S5312x (zanin)
 
 ### Specs (Physically inspected):
   - CPU: Cortex-A9 (Single Core)
-  - Codename: corsica
+  - Codename: zanin
   - Display Resolution: 240x320
   - EMMC: 4GB
   - Family: KONA (BROADCOM)
@@ -15,7 +15,7 @@
   - Shipped with Android 4.1.2
   - SoC: BCM21654G (850MHz)
   - Touch Panel: IST30XX (Max 2 Touch Points?)
-  - WIFI/Bluetooth/FM-Radio: BCM4330
+  - WIFI/Bluetooth/FM-Radio: BCM4334
 
 ![Samsung Galaxy Pocket Neo](http://cdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-pocket-neo1.jpg "Samsung Galaxy Pocket Neo")
 

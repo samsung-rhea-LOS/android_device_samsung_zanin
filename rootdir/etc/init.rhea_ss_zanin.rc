@@ -287,8 +287,8 @@ on boot
     write /proc/sys/vm/min_free_order_shift 4
 
 on fs
-    mount_all /fstab.rhea_ss_corsica
-    swapon_all fstab.rhea_ss_corsica
+    mount_all /fstab.rhea_ss_zanin
+    swapon_all fstab.rhea_ss_zanin
     setprop ro.crypto.fuse_sdcard true
 
 # For NV Read/Write 

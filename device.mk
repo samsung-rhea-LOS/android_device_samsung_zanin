@@ -16,7 +16,7 @@
 
 # Call up some makefiles
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
-$(call inherit-product-if-exists, vendor/samsung/corsica/corsica-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/zanin/zanin-vendor.mk)
 $(call inherit-product, device/samsung/rhea-common/rhea.mk)
 
 # LDPI assets
@@ -26,12 +26,12 @@ $(call inherit-product, device/ldpi-common/ldpi.mk)
 
 # Init scripts
 PRODUCT_PACKAGES += \
-    fstab.rhea_ss_corsica \
-    init.rhea_ss_corsica.rc \
-    init.recovery.rhea_ss_corsica.rc \
-    ueventd.rhea_ss_corsica.rc
+    fstab.rhea_ss_zanin \
+    init.rhea_ss_zanin.rc \
+    init.recovery.rhea_ss_zanin.rc \
+    ueventd.rhea_ss_zanin.rc
 
-# display prop for corsica
+# display prop for zanin
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=120 \
     ro.lcd_brightness=160 \
@@ -42,5 +42,5 @@ TARGET_SCREEN_HEIGHT := 320
 TARGET_SCREEN_WIDTH := 240
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
-PRODUCT_NAME := full_corsica
-PRODUCT_DEVICE := corsica
+PRODUCT_NAME := full_zanin
+PRODUCT_DEVICE := zanin
