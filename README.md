@@ -1,8 +1,8 @@
-# CyanogenMod-12.1 Device tree for Samsung GT-S5310x,S5312x (corsica)
+# CyanogenMod-12.1 Device tree for Samsung GT-B5330
 
 ### Specs (Physically inspected):
   - CPU: Cortex-A9 (Single Core)
-  - Codename: corsica
+  - Codename: zanin
   - Display Resolution: 240x320
   - EMMC: 4GB
   - Family: KONA (BROADCOM)
