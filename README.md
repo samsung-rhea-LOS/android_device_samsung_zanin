@@ -15,20 +15,21 @@
   - Shipped with Android 4.1.2
   - SoC: BCM21654G (850MHz)
   - Touch Panel: IST30XX (Max 2 Touch Points?)
-  - WIFI/Bluetooth/FM-Radio: BCM4330
+  - WIFI/Bluetooth/FM-Radio: BCM4334
 
-![Samsung Galaxy Pocket Neo](http://cdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-pocket-neo1.jpg "Samsung Galaxy Pocket Neo")
+![Samsung Galaxy Ch@t](https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-chat-gt-b5330-1.jpg "Samsung Galaxy Ch@t")
 
 ### Notice:
   - Apply patch to source code before build
 
 ### Other resource:
-  - Kernel source: https://github.com/bcm216xx/android_kernel_rhea
+  - Kernel source: https://github.com/samsung-rhea-LOS/android_kernel_rhea
   - Vendor blobs: https://github.com/bcm216xx/android_vendor_samsung
 
 ### Credits (Sort by alphabetical order):
   - Dhinesh77
   - Faizauthar12
+  - Hacker-Anirudh
   - karthick111
   - Pawitp
   - The CyanogenMod Team

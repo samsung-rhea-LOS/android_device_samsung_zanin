@@ -18,14 +18,7 @@ BOARD_RECOVERYIMAGE_PARTITION_SIZE := 0x00800000
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 2236070912
 BOARD_CACHEIMAGE_PARTITION_SIZE := 573741824
 BOARD_FLASH_BLOCK_SIZE := 131072
-
-# Recovery
-BOARD_LDPI_RECOVERY := true
-ifeq ($(TWRP_BUILD),true)
--include device/samsung/twrp-common/twrp.mk
-else
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.rhea_ss_zanin
-endif
 
 # inherit from the proprietary version
 -include vendor/samsung/zanin/BoardConfigVendor.mk
