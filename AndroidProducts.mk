@@ -1,3 +1,3 @@
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/device.mk \
-    $(LOCAL_DIR)/full_zanin.mk
+    $(LOCAL_DIR)/lineage_zanin.mk
