@@ -1,3 +1,0 @@
-add_lunch_combo lineage_zanin-eng
-add_lunch_combo lineage_zanin-userdebug
-add_lunch_combo lineage_zanin-user

@@ -7,11 +7,8 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/zanin/bluetooth
 
 # Kernel
 TARGET_KERNEL_CONFIG := cyanogenmod_zanin_defconfig
-BOARD_KERNEL_CMDLINE := console=ttyS0,115200n8 mem=456M androidboot.console=ttyS0 gpt v3d_mem=67108864 pmem=24M@0x9E800000
+BOARD_KERNEL_CMDLINE := console=ttyS0,115200n8 mem=480M androidboot.console=ttyS0 gpt v3d_mem=67108864 pmem=24M@0x9E800000
 
-# Partitions
-# This is actually 1002438656, but reducing to 0 MB to support users using repartition.
-# Feel free to increase when needed
 BOARD_BOOTIMAGE_PARTITION_SIZE := 8388608
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 8388608
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 939524096
