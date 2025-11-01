@@ -275,8 +275,8 @@ on boot
     write /proc/sys/vm/min_free_order_shift 4
 
 on fs
-    mount_all /fstab.rhea_ss_corsica
-    swapon_all fstab.rhea_ss_corsica
+    mount_all /fstab.rhea_ss_zanin
+    swapon_all fstab.rhea_ss_zanin
 
 # For NV Read/Write 
 	chown radio system /dev/block/mmcblk0p18    
