@@ -9,7 +9,7 @@ $(call inherit-product, device/samsung/zanin/device.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := zanin
-PRODUCT_NAME := lineage_zanin
+PRODUCT_NAME := cm_zanin
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_MODEL := GT-B5330
